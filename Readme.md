@@ -1,0 +1,1 @@
+ayuda comando "echo"
