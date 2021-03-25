@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+int main (){
+//Declaración de variables locales
+int a, b;
+int c;
+
+//Iniciación de variables
+a=10;
+b=20;
+c= a + b;
+cout <<c;
+return 0;
+}
