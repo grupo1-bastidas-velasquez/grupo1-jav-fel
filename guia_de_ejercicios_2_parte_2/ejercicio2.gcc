@@ -1,0 +1,23 @@
+#include<stdio.h>
+#include<ctype.h>
+#include<string.h> 
+
+using namespace std;
+
+int main () {
+char cad[50];
+cout <<"Escriba 50 carácteres comenzando por un múmero e intercalando letras y número de un dígito \n" <<"Para imprimir cada letra tantas veces como el número que la precede \n" << "Escriba la cadena de carácteres" ;
+cin >> cadena ;
+char cad[50]=cadena;
+for(i=0, i<50, i=i+2){ 
+	int contador = contador + cad[i];
+}
+char aimprimir[contador];
+	//for(n=0, n < contador, n=n+1){
+		for(int i = 0;i=50; i=i+2){
+			for(int j=0; j=cad[i]; j++){
+			aimprimir[i]=cad[i+i];
+			}
+	//}	}
+return 0;
+}

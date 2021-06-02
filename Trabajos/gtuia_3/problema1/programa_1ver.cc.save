@@ -1,0 +1,43 @@
+#include <iostream>
+#include <stdio.h>
+#include <string>
+#include <stdlib.h>
+
+using namespace std;
+ class Trabajador {
+    public:
+	int cat;
+	int ant;
+	float sal;
+	int * res;
+};
+
+int main() {
+	int cla;
+	printf("Indique cuál es la clave del trabajador: ");
+	cin >> cla;
+	Trabajador cla;
+	cout <<"Indique cual es la categoría del empleado: ";
+	cin >> cla.cat;
+	cout <<"\n Indique en años cual es la antiguedad del trabajador en la empresa: ";
+	cin >> cla.ant;
+	cout <<"\n Escriba el Salario del trabajador sin puntos: ";
+	cin >> cla.sal;
+	if ((cat ==3 | cat ==4) &&  ant >5){
+	res =1;
+	}
+	else if (cat ==2 && ant >7){
+	res =1;
+	}
+	else{
+	res =0;
+	} 
+	if (res ==1){
+	printf("El trabajador es apto para la plaza");
+	}
+	else {
+	printf("El trabajador no está apto para la nueva plaza");
+	}
+return 0;
+}
+

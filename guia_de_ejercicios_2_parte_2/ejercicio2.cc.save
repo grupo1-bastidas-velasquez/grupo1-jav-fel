@@ -1,0 +1,14 @@
+#include <stdlib.h>
+
+using namespace std;
+
+char cad[50];
+char *salida_caracteres;
+
+int main(){
+	cout << "Ingrese la cadena de caracteres"
+	cin >> cadena
+	sizeof(cadena)
+return 0;
+}
+

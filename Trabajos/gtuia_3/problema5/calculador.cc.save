@@ -1,0 +1,42 @@
+#include <iostream>
+#include <stdlib.h>
+#include <math.h>
+#include <stdio.h>
+
+//using namespace std;
+
+float media_aritmetica(float[]); //declaramos la función que calcula la media aritmética
+float varianza(float[]); //declaramos la función que calcula la varianza
+float desviacion(float[]); //declaramos la función que calcula la desviación estándar
+float moda(float[]); //declaramos la funció que calcula la moda
+float me, v, d, mo;
+int *n;
+int i=0
+
+int main(){
+	float buf;
+	cout << "Cuantas notas posee el alumno \n";
+	cin >> n;
+	float notas[n];
+	for (int i=1;i<=n;i++){
+	cout << "ingrese la nota número" <<i ;;
+	cin >> buf;
+	notas[i]=buf;
+	}
+
+	media_aritmetica(notas);
+	varianza(notas);
+	desviacion(notas);
+	moda(notas);
+}
+
+void media_aritmetica(float notas[]){ //definición de la función media aritmética
+	suma=0;
+	float media;
+	for (int =i ; i <= n; i++){
+	suma=suma + notas(i);
+	}
+	media= suma/n;
+}
+void moda(float notas[]){
+	for
